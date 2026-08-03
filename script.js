@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function daysOfYear( year){
+function daysOfAYear( year){
 	if(year%100!=0 && year%4===0){
 		return 366;
 	}
@@ -8,3 +8,4 @@ function daysOfYear( year){
 	}
 	return 365;
 }
+daysOfAYear(2000);
